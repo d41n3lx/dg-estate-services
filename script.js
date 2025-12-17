@@ -1,4 +1,11 @@
 // === Smooth Auto-Slider ===
+
+const button = document.getElementById("alertMsg");
+
+add.EventListener("click", functoin() 
+    {
+      alert("Your Message Has Been Sent Successfully");
+    });
 document.addEventListener("DOMContentLoaded", () => {
   const slides = document.querySelectorAll(".slide");
   let index = 0;
@@ -11,3 +18,4 @@ document.addEventListener("DOMContentLoaded", () => {
   changeSlide(); // show first slide
   setInterval(changeSlide, 4000); // change every 4s
 });
+
